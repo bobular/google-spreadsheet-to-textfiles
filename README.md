@@ -11,6 +11,7 @@ and writes a text file for each worksheet in the directory specified.
 OPTIONS:
 
  -suffix .tsv (default is .txt)
+ 
  -delimiter , (default is tab)
 
 INSTALLATION NOTES:
