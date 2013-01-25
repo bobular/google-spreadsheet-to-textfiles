@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
 #
-# USAGE: ./fetch-tsv-from-google-spreadsheet.pl -outdir my-dir -username myemail@gmail.com -title "Spreadsheet title"
+# USAGE: ./google-spreadsheet-to-textfiles.pl -outdir my-dir -username myemail@gmail.com -title "Spreadsheet title"
 #
 # Prompts for your google password, accesses the desired spreadsheet
 # and writes a text file for each worksheet in the directory specified.
