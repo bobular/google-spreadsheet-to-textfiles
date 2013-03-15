@@ -85,7 +85,7 @@ my $tsv = Text::CSV_XS->new({
 foreach my $worksheet ($spreadsheet->worksheets) {
   my $w_title = $worksheet->title;
   my $outfile = "$outdir/$w_title$suffix";
-  open(my $fh, ">$outfile") || die "Help! can't open output file '$outfile'\n";
+  open(my $fh, ">:utf8", $outfile) || die "Help! can't open output file '$outfile'\n";
 
   # fill a 2D content array (sparsely) with values from the spreadsheet
   my @content; # [row][col] = cell->content
